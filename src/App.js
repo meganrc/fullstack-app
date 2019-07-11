@@ -20,7 +20,7 @@ class App extends Component {
                   <Link to="/api/employees/:id" className="nav-link">Update Employees</Link>
                 </li>
                 <li className="navbar-item">
-                  <Link to="/api/employees/create" className="nav-link">Create Employees</Link>
+                  <Link to="/api/create" className="nav-link">Create Employees</Link>
                 </li>
               </ul>
             </div>
@@ -28,7 +28,7 @@ class App extends Component {
           <br/>
           <Route path="/api/employees" exact component={EmployeesList} />
           <Route path="/api/employees/:id" component={EditEmployees} />
-          <Route path="/api/employees/create" component={CreateEmployees} />
+          <Route path="/api/create" component={CreateEmployees} />
         </div>
       </Router>
     );

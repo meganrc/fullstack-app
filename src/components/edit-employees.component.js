@@ -19,7 +19,7 @@ export default class EditEmployees extends Component {
   //      this.handleQuoteClick= this.handleQuoteClick.bind(this);
 
         this.state = {
-          firstName: '',
+          firstName:'',
           lastName: '',
           hireDate: '',
           role: '',
